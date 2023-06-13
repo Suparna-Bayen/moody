@@ -1,0 +1,192 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+.shape-2
+{
+    top: 40%;
+    height: 300px;
+}
+.section-1 h3{
+    position: absolute;
+    top: 45%;
+   
+    font-size: 2.5rem;
+ }
+ .section-1 h1{
+    position: absolute;
+    top: 50%;
+   
+    font-size: 6.5rem;
+
+}
+.section-1 h2{
+    position: absolute;
+    top: 70%;
+    
+    font-size: 3rem;
+ }
+ .sec-2{
+    height: 700px;
+ }
+ .texture{
+    height:280px;
+}
+.shape3{
+
+    height: 300px;
+   
+}
+.sec-2-img1{
+    height: 300px;
+    top: 0%;
+    /* top: -50%; */
+}
+.sec-2-img2{
+    height:250px ;
+
+    
+   
+    
+    }
+   .first{
+    height: 300px;
+   } 
+.BTN button{
+    display: block;
+    margin: 40px auto;
+    font-size: 0.8rem;
+}
+}
+@media only screen and (max-width: 600px){
+
+    .texture{
+        height: 420px;
+    }
+    .sec-2{
+        height: 800px;
+    }
+    .sec-2-img1{
+        height: 350px;
+        /* top: -50%; */
+    }
+    .sec-2-img2{
+        
+        
+        height: 280px;
+        
+        }
+        .shape3{
+            height: 320px;
+        }
+        .sec-4-img1{
+            height: 280px;
+        }
+        .sec-4-img2{
+            height: 350px;
+        }
+        i{
+            font-size: 30px;
+        }
+        .text-p{
+            max-width: fit-content;
+        }
+        .sec-5-p{
+            max-width: max-content;
+        }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .texture{
+        height: 420px;
+    }
+    .sec-2{
+        height: 1000px;
+    }
+    .sec-2-img1{
+        height: 400px;
+        /* top: -50%; */
+    }
+    .sec-2-img2{
+        position: absolute;
+        top: 19%;
+        
+        height: 350px;
+        
+        }
+        .shape3{
+            position: absolute;
+            height: 400px;
+            /* top: 20%;
+            left: 0%;  */
+        }
+        .sec-4-img1{
+            height: 280px;
+        }
+        .sec-4-img2{
+            height: 500px;
+        }
+        .img-one{
+            height: 280px;
+        }
+        .img-two{
+            height: 280px;
+        }
+        .img-three{
+            height: 280px;
+        }
+        .img-four{
+            height: 280px;
+        }
+        .sec-4-img1{
+            height: 300px;
+        }
+        .sec-4-img2{
+            height: 500px;
+        }
+        
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .texture{
+        height: 540px;
+    }
+    .sec-2-img1{
+        height: 486px;
+        top: -50%;
+    }
+    .sec-4-img1{
+        height: 340px;
+    }
+    .sec-4-img2{
+        height: 600px;
+    }
+    
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.texture{
+    height: 700px;
+    
+}
+.sec-2-img1{
+    height: 600px;
+    top: -100%;
+}
+.sec-4-img1{
+    height: 400px;
+}
+.sec-4-img2{
+    height: 800px;
+}
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
